@@ -1,4 +1,5 @@
 **Read this in other languages: [English](README.md), [中文](README_zh.md).**
+Welcome to star! More features are coming soon!
 # Alpamayo-1-Local
 VLA model, a local, offline‑running adaptation of NVIDIA’s Alpamayo. Add dataset process, visualization, fine-tuning, RL fine-tuning, consistency training.
 
