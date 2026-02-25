@@ -34,3 +34,6 @@ pip install -r requirements.txt
 ```bash
 python inference.py
 ```
+
+### About dataset
+You don't need to download the full [dataset](https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles); you only need to download one or a few clips.
