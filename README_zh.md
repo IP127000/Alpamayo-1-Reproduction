@@ -35,3 +35,5 @@ pip install -r requirements.txt
 ```bash
 python inference.py
 ```
+##关于数据集
+不需要完整的数据，只需要几个clips即可进行推理
