@@ -99,6 +99,6 @@ Stay tuned!
 
 ## 🤝 4 Contributing
 
-Feel free to **star⭐, fork🍴, and submit PRs** to help improve Alpamayo-1-Local!
+Feel free to **star⭐, fork🍴, and submit PRs** to help improve Alpamayo-finetune!
 
 ---
