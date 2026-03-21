@@ -1,5 +1,6 @@
 
 # 🌟 Alpamayo-1&1.5
+Feel free to **star⭐**
 [![GitHub stars](https://img.shields.io/github/stars/IP127000/Alpamayo-VLA-Local?style=social)](https://github.com/IP127000/Alpamayo-VLA-Local/stargazers)
 
 **Read this in other languages:** [English](README.md) | [中文](README_zh.md)
@@ -10,15 +11,13 @@ Offline adaptation of NVIDIA’s Alpamayo with dataset processing, visualization
 
 ## 📌 Table of Contents
 1. [Visualization](#-visualization)
-2. [Usage](#-usage)
-3. [Dataset](#-about-dataset)
-4. [SFT](#-for-sft-supervised-fine-tuning)
-5. [RL](#-for-rl-reinforcement-learning)
-6. [Contributing](#-contributing)
+2. [SFT](#-for-sft-supervised-fine-tuning)
+3. [RL](#-for-rl-reinforcement-learning)
+4. [Contributing](#-contributing)
 
 ---
 
-## 🔹 Visualization 
+## 🔹1 Visualization 
 
 **Parameters:**
 
@@ -40,28 +39,28 @@ Offline adaptation of NVIDIA’s Alpamayo with dataset processing, visualization
 
 ---
 
-## ⚙️ Usage
+### ⚙️ Usage
 
-### 1️⃣ Environment
+#### 1️⃣ Environment
 ```bash
 python==3.12
 cuda==12.1
 ````
 
-### 2️⃣ Clone repository
+#### 2️⃣ Clone repository
 
 ```bash
 git clone https://github.com/IP127000/Alpamayo-VLA-Local.git
 cd Alpamayo-VLA-Local
 ```
 
-### 3️⃣ Install dependencies
+#### 3️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run inference
+#### 4️⃣ Run inference
 
 ```bash
 python inference.py
@@ -69,7 +68,7 @@ python inference.py
 
 ---
 
-## 🗂 About dataset
+### 🗂 About dataset
 
 You don't need the full [dataset](https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles);
 only download one or a few clips for testing.
@@ -80,7 +79,7 @@ Stay tuned for updates!
 
 ---
 
-## 🛠 For SFT (Supervised Fine-Tuning)
+## 🛠 2 For SFT (Supervised Fine-Tuning)
 
 1. Split Alpamayo into two parts: **Qwen-3_VL** + **diffusion module**.
    Add trajectory & action tokens to Qwen-3_VL tokenizer.
@@ -91,7 +90,7 @@ Stay tuned for updates!
 
 ---
 
-## 🎯 For RL (Reinforcement Learning)
+## 🎯 3 For RL (Reinforcement Learning)
 
 RL fine-tuning of Alpamayo focuses on **Qwen-3_VL**:
 
@@ -102,7 +101,7 @@ Stay tuned!
 
 ---
 
-## 🤝 Contributing
+## 🤝 4 Contributing
 
 Feel free to **star⭐, fork🍴, and submit PRs** to help improve Alpamayo-1-Local!
 
