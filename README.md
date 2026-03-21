@@ -1,6 +1,6 @@
 
 # 🌟 Alpamayo-1&1.5
-Feel free to **star⭐**
+Feel free to **star⭐**  
 [![GitHub stars](https://img.shields.io/github/stars/IP127000/Alpamayo-VLA-Local?style=social)](https://github.com/IP127000/Alpamayo-VLA-Local/stargazers)
 
 **Read this in other languages:** [English](README.md) | [中文](README_zh.md)
@@ -39,28 +39,28 @@ Offline adaptation of NVIDIA’s Alpamayo with dataset processing, visualization
 
 ---
 
-### ⚙️ Usage
+**⚙️ Usage**
 
-#### 1️⃣ Environment
+1️⃣ Environment
 ```bash
 python==3.12
 cuda==12.1
 ````
 
-#### 2️⃣ Clone repository
+2️⃣ Clone repository
 
 ```bash
 git clone https://github.com/IP127000/Alpamayo-VLA-Local.git
 cd Alpamayo-VLA-Local
 ```
 
-#### 3️⃣ Install dependencies
+3️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-#### 4️⃣ Run inference
+4️⃣ Run inference
 
 ```bash
 python inference.py
@@ -68,12 +68,12 @@ python inference.py
 
 ---
 
-### 🗂 About dataset
+**🗂 About dataset**
 
 You don't need the full [dataset](https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles);
 only download one or a few clips for testing.
 
-### 📸 Image inference
+**📸 Image inference**
 
 Stay tuned for updates!
 
