@@ -73,7 +73,7 @@ only download one or a few clips for testing.
 
 **📸 Image inference**
 
-> **Note:**Stay tuned for updates!
+> **Note:** Stay tuned for updates!
 
 ---
 
