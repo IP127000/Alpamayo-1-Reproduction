@@ -103,6 +103,6 @@ From a technical perspective, Alpamayo’s reinforcement fine-tuning is quite st
 
 ## 🤝 4 Contributing
 
-Feel free to **star⭐, fork🍴, and submit PRs** to help improve Alpamayo-1-Local!
+Feel free to **star⭐, fork🍴, and submit PRs** to help improve Alpamayo-finetune!
 
 ---
