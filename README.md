@@ -1,8 +1,6 @@
 
 # 🌟 Alpamayo-1&1.5
-
 Feel free to **star⭐**  
-
 [![GitHub stars](https://img.shields.io/github/stars/IP127000/Alpamayo-VLA-Local?style=social)](https://github.com/IP127000/Alpamayo-VLA-Local/stargazers)
 
 **Read this in other languages:** [English](README.md) | [中文](README_zh.md)
@@ -51,7 +49,7 @@ cuda==12.1
 
 ```bash
 git clone https://github.com/IP127000/Alpamayo-VLA-Local.git
-cd Alpamayo-VLA-Local
+cd Alpamayo_finetune
 ```
 
 3️⃣ Install dependencies
@@ -63,6 +61,7 @@ pip install -r requirements.txt
 4️⃣ Run inference
 
 ```bash
+cd alpamayo_1_vis
 python inference.py
 ```
 
@@ -95,12 +94,13 @@ RL fine-tuning of Alpamayo focuses on **Qwen-3_VL**:
 * VLM outputs **CoT** + **action tokens** via rollouts.
 * Diffusion module is unaffected.
 
+From a technical perspective, Alpamayo’s reinforcement fine-tuning is quite straightforward. Essentially, it is just the RL of Qwen-3_VL, where the VLM outputs CoT and action tokens through rollouts. This process is unrelated to the diffusion component, as described in the paper.
 Stay tuned!
 
 ---
 
 ## 🤝 4 Contributing
 
-Feel free to **star⭐, fork🍴, and submit PRs** to help improve Alpamayo-finetune!
+Feel free to **star⭐, fork🍴, and submit PRs** to help improve Alpamayo-1-Local!
 
 ---
